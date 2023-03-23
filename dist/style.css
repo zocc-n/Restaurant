@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none !important;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+#content {
+    border: 1px solid greenyellow;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    border: 1px solid blueviolet;
+    height: 100px;
+    width: 100px;
+}
+
+#name-by-logo {
+    border: 1px solid hotpink;
+    color: darkred;
+    font-size: 2rem;
+    padding-right: 30px;
+}
+
+ul {
+    border: 1px solid turquoise;
+    display: flex;
+}
+
+ul li {
+    border: 1px solid wheat;
+    color: firebrick;
+    list-style: none;
+    font-size: 1.5rem;
+    padding-left: 30px;
+}
