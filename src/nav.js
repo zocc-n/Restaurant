@@ -1,6 +1,6 @@
 const generateNav = () => {
     
-    //targets #content div
+    //Targets #content div
     const content = document.querySelector('#content');
 
     //Generates nav

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: none !important;
+    /* border: none !important; */
 }
 
 body {
@@ -10,12 +10,19 @@ body {
 }
 
 #content {
-    border: 1px solid greenyellow;
+    border: 3px solid greenyellow;
     display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
+
+/* NAVIGATION */
+
 nav {
+    border: 2px solid blue;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -43,4 +50,37 @@ ul li {
     list-style: none;
     font-size: 1.5rem;
     padding-left: 30px;
+}
+
+
+/* HOMEPAGE */
+
+#mainDiv {
+    border: 2px solid skyblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#imageDiv {
+    border: 1px solid forestgreen;
+    min-width: 500px;
+    height: 500px;
+    background-image: url('../img/restaurant.jpeg');
+    border-radius: 5px;
+}
+
+#textDiv {
+    border: 1px solid darkmagenta;
+    height: 500px;
+    max-width: 1000px;
+}
+
+#textDiv p {
+    color: azure;
+    padding: 10px;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 1.2rem;
 }
