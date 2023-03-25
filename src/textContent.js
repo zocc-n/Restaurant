@@ -20,6 +20,14 @@ const foodList = {
 const welcomeMessageHtml = `<p>Welcome to our Spanish restaurant, where you can enjoy the best Iberian cuisine without leaving the city. In our menu you will find a wide variety of typical dishes made with fresh ingredients and the best quality.</p><p>If you are a lover of Spanish cuisine, you cannot stop trying our paella, one of the best in the city, or our delicious Iberian hams and cheeses directly imported from Spain. In addition, we have a wide selection of Spanish wines so you can pair your food like a real gourmet.</p><p>In a cozy and authentic atmosphere, our restaurant is perfect for a romantic dinner, a meeting with friends or a special celebration. And if you prefer, we also have a catering service to surprise your guests with the most authentic flavors in Spain.</p><p>Do not wait any longer, visit our website and make your reservation to enjoy a unique experience in our Spanish restaurant. We are waiting with open arms!</p>`
 
 
-export {foodList, welcomeMessageHtml}
+//Contacts
+const contact = {
+    name: 'José García',
+    phone: '+34 007 007',
+    email: 'reservation@lossabores.es',
+}
 
+//Contact info in HTML form
+const contactInfoHtml = `<p>Name: ${contact.name}</p><p>Phone: ${contact.phone}</p><p>E-mail: ${contact.email}</p>`
 
+export {foodList, welcomeMessageHtml, contact, contactInfoHtml}
