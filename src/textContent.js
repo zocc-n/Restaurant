@@ -1,19 +1,19 @@
 //Food with description and price
-const food = (name, description, price, img) => {
-    return {name, description, price, img}
+const food = (name, description, price, path) => {
+    return {name, description, price, path}
 };
 
-const foodList = {
-    food1 : food('Paella', 'A traditional Spanish rice dish with saffron, seafood, chicken, and vegetables.', '12', './img/Paella.jpeg'),
-    food2 : food('Gazpacho', 'A cold soup made with tomatoes, cucumbers, peppers, and bread.', '5', './img/Gazpacho.jpeg'),
-    food3 : food('Patatas bravas', 'Fried potatoes with a spicy sauce.', '4', './img/PatatasBravas.jpeg'),
-    food4 : food('Pulpo a la gallega', 'Galician-style octopus served with garlic and paprika.', '12', './img/PulpoALaGallega.jpeg'),
-    food5 : food('Croquetas', 'Small fried balls of bechamel and ham or cheese.', '7', './img/Croquetas.jpeg'),
-    food6 : food('Calamari a la romana', 'Fried squid rings served with lemon.', '8', './img/CalamariALaRomana'),
-    food7 : food('Churros con chocolate', 'Long, thin fried doughnut sticks served with hot chocolate. ', '3', './img/ChurrosConChocolate.jpeg'),
-    food8 : food('Albóndigas', 'Meatballs in a tomato-based sauce served with bread. ', '9', './img/Albondigas.jpeg'),
-    food9 : food('Ensalada mixta', 'A mixed green salad with tuna, olives, and boiled egg.', '6', './img/EnsaladaMixta.jpeg'),
-};
+const foodList = [
+    food('Paella', 'A traditional Spanish rice dish with saffron, seafood, chicken, and vegetables.', '12', '../img/Paella.jpeg'),
+    food('Gazpacho', 'A cold soup made with tomatoes, cucumbers, peppers, and bread.', '5', '../img/Gazpacho.jpeg'),
+    food('Patatas bravas', 'Fried potatoes with a spicy sauce.', '4', '../img/PatatasBravas.jpeg'),
+    food('Pulpo a la gallega', 'Galician-style octopus served with garlic and paprika.', '12', '../img/PulpoALaGallega.jpeg'),
+    food('Croquetas', 'Small fried balls of bechamel and ham or cheese.', '7', '../img/Croquetas.jpeg'),
+    food('Calamari a la romana', 'Fried squid rings served with lemon.', '8', '../img/CalamariALaRomana.jpeg'),
+    food('Churros con chocolate', 'Long, thin fried doughnut sticks served with hot chocolate. ', '3', '../img/ChurrosConChocolate.jpeg'),
+    food('Albóndigas', 'Meatballs in a tomato-based sauce served with bread. ', '9', '../img/Albondigas.jpeg'),
+    food('Ensalada mixta', 'A mixed green salad with tuna, olives, and boiled egg.', '6', '../img/EnsaladaMixta.jpeg'),
+];
 
 
 //Promotial copy for the homepage

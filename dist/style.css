@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: none !important; */
+    border: none !important;
 }
 
 body {
@@ -13,9 +13,16 @@ body {
     border: 3px solid greenyellow;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: fit-content;
 }
 
+#mainDiv {
+    border: 2px solid skyblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    min-height: fit-content;
+}
 
 /* NAVIGATION */
 
@@ -53,15 +60,7 @@ ul li {
 }
 
 
-/* HOMEPAGE */
-
-#mainDiv {
-    border: 2px solid skyblue;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    margin-top: 50px;
-}
+/* HOMEPAGE and CONTACTS*/
 
 #imageDiv {
     border: 1px solid forestgreen;
@@ -82,4 +81,40 @@ ul li {
     padding-left: 30px;
     padding-top: 50px;
     font-size: 1.2rem;
+}
+
+
+/* MENU */
+
+.foodItem {
+    border: 1px solid navy;
+    background-color: navajowhite;
+    width: 500px;
+    margin: 25px;
+    display: flex;
+}
+
+.foodDescAndPriceDiv {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid firebrick;
+}
+
+.foodImage {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+
+.foodDescription, .foodPrice {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.foodDescription {
+    border: 1px solid fuchsia;
+}
+
+.foodPrice {
+    border: 1px solid cadetblue;
 }
