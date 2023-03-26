@@ -25,6 +25,9 @@ const generateNav = () => {
     navListItem1.textContent = 'Home';
     navListItem2.textContent = 'Menu';
     navListItem3.textContent = 'Contact';
+    navListItem1.setAttribute('id', 'homeBtn');
+    navListItem2.setAttribute('id', 'menuBtn');
+    navListItem3.setAttribute('id', 'contactBtn');
     navList.append(navListItem1, navListItem2, navListItem3);
 
     //Appends logo, name and tabs to navigation element
